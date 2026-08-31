@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Haunts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+  <div class="brand-row">
+    <a href="index.html">
+      <svg class="brand-mark" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+            <stop offset="0%" stop-color="#12141c"/>
+            <stop offset="100%" stop-color="#000000"/>
+          </radialGradient>
+        </defs>
+        <circle cx="100" cy="100" r="98" fill="url(#bg)"/>
+        <path d="M 100 100 L 100 30 A 70 70 0 0 1 149 51 Z" fill="#22D3EE" opacity="0.5"/>
+        <circle cx="100" cy="100" r="42" fill="none" stroke="#22D3EE" stroke-width="6"/>
+        <circle cx="100" cy="100" r="11" fill="#39FF6A"/>
+      </svg>
+      <span class="brand-name">HAUNT<span>S</span></span>
+    </a>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: <span class="placeholder">[ADD LAST UPDATED DATE]</span></p>
+
+  <h2>What We Collect</h2>
+
+  <p><strong>Account information</strong></p>
+  <ul>
+    <li>Email address and password (password is never stored by us directly, Supabase Auth handles this using industry-standard hashing)</li>
+    <li>Display name, if you provide one</li>
+  </ul>
+
+  <p><strong>Location data</strong></p>
+  <ul>
+    <li>Live GPS location, used to show nearby pins, calculate distance for verification, and pre-fill your location when submitting a pin. This is not stored continuously.</li>
+    <li>An approximate "last known location," saved periodically (roughly every 5 minutes while the App is open) and used to determine which users are near a newly submitted pin for notification purposes.</li>
+  </ul>
+
+  <p><strong>User-generated content</strong></p>
+  <ul>
+    <li>Pins you submit (name, description, category, location, tags)</li>
+    <li>Verifications you record (which pins, when, and your location at the time)</li>
+    <li>Reports you file against other users' content</li>
+    <li>Other users you've blocked, this list is private to your account, not visible to anyone else, including the blocked user</li>
+  </ul>
+
+  <p><strong>Push notification token</strong></p>
+  <ul>
+    <li>A device identifier used to deliver notifications through Apple's and Google's push notification services. This is not your phone number or any other personally identifying device information.</li>
+  </ul>
+
+  <p><strong>Progression data</strong></p>
+  <ul>
+    <li>Your points total and weekly verification streak, tied to your account and calculated from your verification activity. This syncs across devices and is retained as part of your account for as long as it's active.</li>
+  </ul>
+
+  <h2>Why We Collect It</h2>
+  <ul>
+    <li>To operate the core features of the App (the map, verification, submissions, notifications)</li>
+    <li>To maintain account security</li>
+    <li>To moderate content and enforce our Terms of Service</li>
+  </ul>
+  <p>We do not use your data for targeted advertising. Haunts does not currently display third-party ads.</p>
+
+  <h2>Who We Share It With</h2>
+  <ul>
+    <li><strong>Supabase</strong> (our database and authentication provider) stores all account, location, and content data described above.</li>
+    <li><strong>Mapbox</strong> (our map provider) receives location data necessary to render map tiles as you use the App.</li>
+    <li><strong>Expo</strong> (push notification delivery) receives your device's push token to deliver notifications.</li>
+    <li><strong>Apple / Google</strong> process payment information for subscriptions directly, Haunts does not receive or store your payment card details.</li>
+    <li><strong>RevenueCat</strong> manages subscription status on our behalf, receiving your purchase and entitlement data (what you've subscribed to and whether it's active) from Apple/Google, not your payment details.</li>
+  </ul>
+  <p>We do not sell your personal data to third parties.</p>
+
+  <h2>Content Visibility</h2>
+  <p>Pins, descriptions, and verification counts you submit are visible to other users of the App by design, that's the core function of the product. Your display name (not your email) is associated with content you submit.</p>
+
+  <h2>Your Rights</h2>
+  <p>You can:</p>
+  <ul>
+    <li>Access or update your account information through the App</li>
+    <li>Delete your account, which permanently removes your profile and unlinks your identity from your activity going forward. Content you contributed to the shared community map (pins, verifications) remains visible in anonymized form, we retain a license to that anonymized content to preserve the integrity of the shared map, but it's no longer connected to your identity.</li>
+    <li>Request a copy of your data by contacting us at <span class="placeholder">[ADD CONTACT EMAIL]</span></li>
+  </ul>
+
+  <h2>California Privacy Rights (CCPA/CPRA)</h2>
+  <p>If you are a California resident, you have the right to know what personal information we collect (see "What We Collect" above), request deletion of your personal information, correct inaccurate information, and opt out of the sale or sharing of your personal information. Haunts does not sell your personal information. We do collect precise geolocation data as described above, used solely to operate the App's core features, not for sale or third-party advertising. To exercise these rights, contact us at <span class="placeholder">[ADD CONTACT EMAIL]</span>.</p>
+
+  <h2>European/UK Privacy Rights (GDPR)</h2>
+  <p>If you are located in the EU or UK, our lawful basis for collecting your location data is your consent, which you can withdraw at any time by disabling location permissions in your device settings (this will limit core App functionality). You have the right to access, correct, delete, or receive a portable copy of your personal data, and to object to certain processing. To exercise these rights, contact us at <span class="placeholder">[ADD CONTACT EMAIL]</span>.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>The App is not directed at children under 13, and we do not knowingly collect personal information from children under 13.</p>
+
+  <h2>Data Retention</h2>
+  <p>We retain your account and content data for as long as your account is active. After account deletion: your profile, email, and other directly identifying information are removed within a limited window. Push notification tokens are invalidated immediately upon deletion. Anonymized pin and verification data tied to the shared map is retained indefinitely to preserve map integrity, as described in "Your Rights" above.</p>
+
+  <h2>Security</h2>
+  <p>We rely on Supabase's infrastructure and access controls to protect your data, including row-level security policies that restrict what data any given user or the app itself can access. No system is completely secure, and we cannot guarantee absolute security.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. Material changes will be reflected by updating the date at the top of this document.</p>
+
+  <h2>Contact</h2>
+  <p class="contact placeholder">[ADD CONTACT EMAIL]</p>
+
+  <footer>
+    <a class="inline-link" href="index.html">&larr; Back to Haunts</a>
+  </footer>
+
+</div>
+</body>
+</html>
 
