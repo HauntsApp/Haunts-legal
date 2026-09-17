@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Haunts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+  <div class="brand-row">
+    <a href="index.html">
+      <svg class="brand-mark" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+            <stop offset="0%" stop-color="#12141c"/>
+            <stop offset="100%" stop-color="#000000"/>
+          </radialGradient>
+        </defs>
+        <circle cx="100" cy="100" r="98" fill="url(#bg)"/>
+        <path d="M 100 100 L 100 30 A 70 70 0 0 1 149 51 Z" fill="#22D3EE" opacity="0.5"/>
+        <circle cx="100" cy="100" r="42" fill="none" stroke="#22D3EE" stroke-width="6"/>
+        <circle cx="100" cy="100" r="11" fill="#39FF6A"/>
+      </svg>
+      <span class="brand-name">HAUNT<span>S</span></span>
+    </a>
+  </div>
+
+  <h1>Support</h1>
+
+  <p>Need help with Haunts, have a question, or want to report an issue? Reach out and we'll get back to you.</p>
+
+  <h2>Contact</h2>
+  <p class="contact placeholder">haunts.support@gmail.com</p>
+
+  <h2>Common Questions</h2>
+
+  <p><strong>How do I delete my account?</strong></p>
+  <p>Open the app, go to Settings, and look for the account deletion option. This permanently removes your profile and unlinks your identity from your activity going forward.</p>
+
+  <p><strong>How do I manage or cancel my subscription?</strong></p>
+  <p>Subscriptions are managed directly through your Apple ID account settings (Settings app &rarr; your name &rarr; Subscriptions), not within Haunts itself. Apple handles all billing directly.</p>
+
+  <p><strong>How do I report inappropriate content or another user?</strong></p>
+  <p>Tap on the content or user in question and use the built-in report or block option. You can also contact us directly using the email above.</p>
+
+  <p><strong>Something isn't working right, what do I do?</strong></p>
+  <p>Email us at the address above with a description of what happened, and your device type if relevant, we'll look into it.</p>
+
+  <h2>Legal</h2>
+  <p>
+    <a class="inline-link" href="terms.html">Terms of Service</a>
+    &nbsp;&middot;&nbsp;
+    <a class="inline-link" href="privacy-policy.html">Privacy Policy</a>
+  </p>
+
+  <footer>
+    <a class="inline-link" href="index.html">&larr; Back to Haunts</a>
+  </footer>
+
+</div>
+</body>
+</html>
